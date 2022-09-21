@@ -1,11 +1,8 @@
-body {
-    font-size: 16px;
-
-    background-color: rgb(215, 82, 82);
-}
-
+@import "./modules/_reset.scss";
+@import "./modules/_vars.scss";
 // this is a perfectly valid SASS comment
 
+@import "./modules/_defaults.scss";
 @import "./modules/_main.scss";
 @import "./modules/_header.scss";
 @import "./modules/_footer.scss";
